@@ -30,3 +30,20 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+/* Indent text fields */
+input[type="text"],
+select {
+  margin-left: 20px; /* Adjust indentation */
+}
+
+/* Indent checkboxes and radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-left: 30px; /* Adjust indentation */
+}
+
+/* Ensure dropdown menus (select) are properly indented */
+select {
+  padding-left: 20px; /* Add padding inside the select dropdown */
+}

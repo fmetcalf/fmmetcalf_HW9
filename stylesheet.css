@@ -31,10 +31,9 @@
   visibility: visible;
 }
 
-/* Indent text fields */
 input[type="text"],
 select {
-  margin-left: 20px; /* Adjust indentation */
+  margin-left: 100px; /* Adjust indentation */
 }
 
 /* Indent checkboxes and radio buttons */
@@ -57,3 +56,37 @@ select {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+select {
+  width: 150px; /* Set the desired width */
+  height: 35px; /* Set the height for a smaller box */
+  font-size: 0.9rem; /* Adjust font size to make the text smaller */
+  padding: 0px; /* Adjust padding inside the select box */
+}
+
+/* Align all form elements to the left */
+.form-group {
+  margin-bottom: 20px; /* Space between form groups */
+  text-align: left; /* Align the text to the left */
+}
+
+/* Labels should be block elements and aligned to the left */
+.form-group label {
+  display: block; /* Ensures label takes up full width */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Optional: Make the labels bold */
+}
+
+/* Input fields and select boxes */
+.form-group input,
+.form-group select {
+  width: 100%; /* Make inputs/selects fill the available space */
+  padding: 8px; /* Padding for better readability */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optional: Adjust the size of the select box */
+.form-group select {
+  height: 35px;
+} /* Left-align the label */
